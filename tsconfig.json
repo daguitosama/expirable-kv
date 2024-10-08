@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // Target modern ECMAScript
+    "module": "esnext", // Use ES modules
+    "moduleResolution": "node", // Resolve modules as Node.js does
+    "lib": [
+      "es2020"
+    ], // Add modern JS library types
+    "outDir": "./dist", // Output directory
+    "declaration": true, // Generate .d.ts files
+    "declarationMap": true, // Create source map files for declarations
+    "sourceMap": true, // Generate source maps
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Ensure compatibility between CommonJS and ES modules
+    "strictNullChecks": true,
+    "skipLibCheck": true, // Skip checking library files for speed
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing in imports
+    "resolveJsonModule": true, // Allow importing JSON files
+    "allowSyntheticDefaultImports": true, // Allows default imports from modules with no default
+    "isolatedModules": true // Ensures that each file can be safely transpiled
+  },
+  "include": [
+    "src/**/*"
+  ], // Include all files in the src directory
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] // Exclude node_modules and dist from compilation
+}

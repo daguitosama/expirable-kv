@@ -1,0 +1,4 @@
+node_modules
+test-cache.db 
+test-cache.db-shm 
+test-cache.db-wal
